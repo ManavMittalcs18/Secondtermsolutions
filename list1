@@ -1,0 +1,26 @@
+'''Given a list with n elements separated by space, find square of each element in the list and print the new list separated by space
+
+Input Format
+
+n elements separated by space
+
+Constraints
+
+1<=n<=100
+
+Output Format
+
+n squared elements separated by space
+
+Sample Input 0
+
+1 2 3 4 5
+
+Sample Output 0
+
+1 4 9 16 25 
+
+'''          
+l=list(map(int,input().split(' ')))
+[print(i**2,end=' ')for i in l]
+ 
